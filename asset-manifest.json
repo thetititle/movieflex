@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/movieflex/static/css/main.d5eabb6a.css",
+    "main.js": "/movieflex/static/js/main.f59941d3.js",
+    "static/media/AppleSDGothicNeoH00.woff": "/movieflex/static/media/AppleSDGothicNeoH00.c3c7e90d99304ca7021a.woff",
+    "static/media/AppleSDGothicNeoB00.woff": "/movieflex/static/media/AppleSDGothicNeoB00.e4bee4915d3d3188d192.woff",
+    "static/media/AppleSDGothicNeoEB00.woff": "/movieflex/static/media/AppleSDGothicNeoEB00.f9c513b4b87924e86bd8.woff",
+    "static/media/AppleSDGothicNeoSB00.woff": "/movieflex/static/media/AppleSDGothicNeoSB00.af276311475b41b78ad7.woff",
+    "static/media/AppleSDGothicNeoT00.woff": "/movieflex/static/media/AppleSDGothicNeoT00.ee502ed02891bc609692.woff",
+    "static/media/AppleSDGothicNeoR00.woff": "/movieflex/static/media/AppleSDGothicNeoR00.89ff345befb5117dde1e.woff",
+    "static/media/AppleSDGothicNeoM00.woff": "/movieflex/static/media/AppleSDGothicNeoM00.49750aadd72b0c5c65a1.woff",
+    "static/media/AppleSDGothicNeoUL00.woff": "/movieflex/static/media/AppleSDGothicNeoUL00.9137a65666977ddb66ab.woff",
+    "static/media/AppleSDGothicNeoL00.woff": "/movieflex/static/media/AppleSDGothicNeoL00.34292e1636a501fe451f.woff",
+    "static/media/AppleSDGothicNeoH00.woff2": "/movieflex/static/media/AppleSDGothicNeoH00.eb898ca3cd43acf9899d.woff2",
+    "static/media/AppleSDGothicNeoEB00.woff2": "/movieflex/static/media/AppleSDGothicNeoEB00.15f52e709fbedaab1a64.woff2",
+    "static/media/AppleSDGothicNeoB00.woff2": "/movieflex/static/media/AppleSDGothicNeoB00.88857ed2f941f92804ac.woff2",
+    "static/media/AppleSDGothicNeoSB00.woff2": "/movieflex/static/media/AppleSDGothicNeoSB00.a1ff00f838a0ecbc09fa.woff2",
+    "static/media/AppleSDGothicNeoT00.woff2": "/movieflex/static/media/AppleSDGothicNeoT00.2259edf79109d769b53b.woff2",
+    "static/media/AppleSDGothicNeoR00.woff2": "/movieflex/static/media/AppleSDGothicNeoR00.44da69560871e053a870.woff2",
+    "static/media/AppleSDGothicNeoM00.woff2": "/movieflex/static/media/AppleSDGothicNeoM00.eb8413dd5ac8898d9c28.woff2",
+    "static/media/AppleSDGothicNeoUL00.woff2": "/movieflex/static/media/AppleSDGothicNeoUL00.fbcaa57f4f7db85584b8.woff2",
+    "static/media/AppleSDGothicNeoL00.woff2": "/movieflex/static/media/AppleSDGothicNeoL00.cbaac29e96cac0b78e72.woff2",
+    "static/media/logo.png": "/movieflex/static/media/logo.8abcad0522e92886437e.png",
+    "static/media/BrumeryDemo.woff": "/movieflex/static/media/BrumeryDemo.685e5cd7d9b4ee78cd0b.woff",
+    "static/media/BrumeryDemo.woff2": "/movieflex/static/media/BrumeryDemo.49a1e763c3a55fc9d321.woff2",
+    "index.html": "/movieflex/index.html",
+    "main.d5eabb6a.css.map": "/movieflex/static/css/main.d5eabb6a.css.map",
+    "main.f59941d3.js.map": "/movieflex/static/js/main.f59941d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5eabb6a.css",
+    "static/js/main.f59941d3.js"
+  ]
+}
