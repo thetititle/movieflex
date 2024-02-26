@@ -6,6 +6,16 @@ import Style from '../css/PageDetail.module.css';
 function PageDetail() {
   const { id } = useParams();
   const [movie, setMovie] = useState([]);
+  const [isScroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 80) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    });
+  }, [isScroll]);
 
   useEffect(() => {
     async function getData() {
@@ -20,7 +30,7 @@ function PageDetail() {
   console.log(movie);
   return (
     <div className="content">
-      <Header />
+      <Header propHeader={isScroll} />
       <section className={Style.section}>
         <div className={Style.movieInfoWrap}>
           <img

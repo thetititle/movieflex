@@ -27,7 +27,13 @@ function Movie({
             </ul>
           </div>
           <div className={Style.summaryWrap}>
-            <p className={Style.summary}>{propSummary}</p>
+            <p className={Style.summary}>
+              {propSummary.length === 0
+                ? 'There is no movie summary'
+                : propSummary.length > 200
+                ? `${propSummary.slice(0, 200)}...`
+                : propSummary}
+            </p>
           </div>
           <div className={Style.detailWrap}>
             <span className={Style.detail}>go Detail</span>

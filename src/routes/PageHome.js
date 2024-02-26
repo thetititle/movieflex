@@ -20,7 +20,6 @@ function PageHome() {
       }
     });
   }, [isScroll]);
-  console.log('isScroll', isScroll);
 
   const getMovies = async () => {
     const json = await (
@@ -60,7 +59,16 @@ function PageHome() {
                     className={Slide.carouselCaption}
                   >
                     <h1>{movie.title}</h1>
-                    <p>{movie.summary}</p>
+                    <p>
+                      {movie.summary.length === 0
+                        ? 'There is no movie summary'
+                        : movie.summary.length > 200
+                        ? `${movie.summary.slice(
+                            0,
+                            200
+                          )}...`
+                        : movie.summary}
+                    </p>
                     <button>
                       <Link to={`/movie/${movie.id}`}>
                         go Detail
