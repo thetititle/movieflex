@@ -10,15 +10,10 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
+        <Route path={'/'} element={<PageHome />} />
         <Route
-          basename={process.env.PUBLIC_URL}
-          path={'/'}
-          element={<PageHome />}
-        />
-        <Route
-          basename={process.env.PUBLIC_URL}
           path={'/movie/:id'}
           element={<PageDetail />}
         />
