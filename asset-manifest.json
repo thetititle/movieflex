@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movieflex/static/css/main.d5eabb6a.css",
-    "main.js": "/movieflex/static/js/main.f59941d3.js",
+    "main.js": "/movieflex/static/js/main.2cdfde54.js",
     "static/media/AppleSDGothicNeoH00.woff": "/movieflex/static/media/AppleSDGothicNeoH00.c3c7e90d99304ca7021a.woff",
     "static/media/AppleSDGothicNeoB00.woff": "/movieflex/static/media/AppleSDGothicNeoB00.e4bee4915d3d3188d192.woff",
     "static/media/AppleSDGothicNeoEB00.woff": "/movieflex/static/media/AppleSDGothicNeoEB00.f9c513b4b87924e86bd8.woff",
@@ -25,10 +25,10 @@
     "static/media/BrumeryDemo.woff2": "/movieflex/static/media/BrumeryDemo.49a1e763c3a55fc9d321.woff2",
     "index.html": "/movieflex/index.html",
     "main.d5eabb6a.css.map": "/movieflex/static/css/main.d5eabb6a.css.map",
-    "main.f59941d3.js.map": "/movieflex/static/js/main.f59941d3.js.map"
+    "main.2cdfde54.js.map": "/movieflex/static/js/main.2cdfde54.js.map"
   },
   "entrypoints": [
     "static/css/main.d5eabb6a.css",
-    "static/js/main.f59941d3.js"
+    "static/js/main.2cdfde54.js"
   ]
 }
