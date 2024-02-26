@@ -1,0 +1,212 @@
+/*
+ * File       : styles.css
+ * Date       : 2024. 02. 24
+ * Author     : SUJI BAE (THETITITLE)
+ */
+@import url('./reset.css');
+
+/* **************************************** *
+ * FONT
+ * **************************************** */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: 'AppleSDGothicNeoEB00';
+  src: url('../public/font/AppleSDGothicNeoEB00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoEB00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoB00';
+  src: url('../public/font/AppleSDGothicNeoB00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoB00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoH00';
+  src: url('../public/font/AppleSDGothicNeoH00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoH00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoR00';
+  src: url('../public/font/AppleSDGothicNeoR00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoR00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoL00';
+  src: url('../public/font/AppleSDGothicNeoL00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoL00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoM00';
+  src: url('../public/font/AppleSDGothicNeoM00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoM00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoSB00';
+  src: url('../public/font/AppleSDGothicNeoSB00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoSB00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoUL00';
+  src: url('../public/font/AppleSDGothicNeoUL00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoUL00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeoT00';
+  src: url('../public/font/AppleSDGothicNeoT00.woff2')
+      format('woff2'),
+    url('../public/font/AppleSDGothicNeoT00.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brumery Demo';
+  src: url('../public/font/BrumeryDemo.woff2')
+      format('woff2'),
+    url('../public/font/BrumeryDemo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* **************************************** *
+ * COLOR
+ * **************************************** */
+:root {
+  --fontTitle: #ffffff;
+  --fontBasic: #bbbbbb;
+  --fontDark: #8f8f8f;
+  --yellow: #eeff00;
+  --red: #e90000;
+  --bgColor: #252525;
+  --footerColor: #1a1a1a;
+}
+
+/* **************************************** *
+ * COMMON
+ * **************************************** */
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: var(--bgColor);
+  font-family: 'AppleSDGothicNeoR00', 'Gothic A1',
+    'Noto Sans KR', 'sans-serif';
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--fontBasic);
+  overflow-y: scroll;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Brumery Demo';
+  font-weight: 500;
+}
+img {
+  border-radius: 5px;
+}
+/* **************************************** *
+ * HEADER
+ * **************************************** */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  background-color: transparent;
+}
+/* **************************************** *
+ * BUTTON
+ * **************************************** */
+button {
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 21px;
+  line-height: 1.2;
+  background-color: var(--red);
+  color: var(--fontTitle);
+  transition: 0.3s;
+}
+button:hover {
+  background-color: var(--yellow);
+  color: var(--bgColor);
+  transition: 0.3s;
+}
+/* **************************************** *
+ * FOOTER
+ * **************************************** */
+footer {
+  height: 50px;
+  position: relative;
+  background: rgb(26 26 26 / 80%);
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

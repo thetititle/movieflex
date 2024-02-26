@@ -1,0 +1,30 @@
+/*
+ * File       : Common.module.css
+ * Date       : 2024. 02. 24
+ * Author     : SUJI BAE (THETITITLE)
+ */
+@import url('../reset.css');
+
+/* **************************************** *
+ * FONT
+ * **************************************** */
+.subTt {
+  font-size: 27px;
+  color: var(--fontTitle);
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.tl {
+  text-align: left;
+}
+
+/* **************************************** *
+ * COMMON
+ * **************************************** */
+.hidden {
+  display: none;
+}

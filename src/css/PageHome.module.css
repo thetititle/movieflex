@@ -1,0 +1,57 @@
+/*
+ * File       : PageHome.module.css
+ * Date       : 2024. 02. 24
+ * Author     : SUJI BAE (THETITITLE)
+ */
+@import url('../reset.css');
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.loadingWrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerWrap {
+  height: 680px;
+  margin-bottom: 120px;
+  /* position: relative; */
+}
+/* .bannerWrap::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 15%,
+    rgba(37, 37, 37, 1) 100%
+  );
+  z-index: 1;
+} */
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 30px;
+  margin-bottom: 120px;
+}
+/* **************************************** *
+ * FONT
+ * **************************************** */
+.title {
+  font-size: 27px;
+  text-align: center;
+  color: var(--fontTitle);
+  margin-bottom: 30px;
+}

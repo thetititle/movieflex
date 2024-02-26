@@ -1,0 +1,71 @@
+/*
+ * File       : PageDetail.module.css
+ * Date       : 2024. 02. 24
+ * Author     : SUJI BAE (THETITITLE)
+ */
+@import url('../reset.css');
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* **************************************** *
+ * SECTION
+ * **************************************** */
+.section {
+  height: calc(100vh - 50px);
+  position: relative;
+}
+.movieInfoWrap {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+.movieInfo {
+  padding: 20px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+  position: absolute;
+  left: 35%;
+}
+/* **************************************** *
+ * COVERIMG
+ * **************************************** */
+.thumbImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+  height: 100vh;
+  object-fit: cover;
+  border-radius: 0%;
+}
+/* **************************************** *
+ * MOVIE INFO SIDE
+ * **************************************** */
+.title {
+  font-size: 31px;
+  color: var(--fontTitle);
+}
+.subTt {
+  font-family: 'Brumery Demo';
+  font-weight: 500;
+  color: var(--fontTitle);
+}
+.movieDesc {
+  display: flex;
+  gap: 10px;
+}
+.detailImg {
+  width: 50%;
+}

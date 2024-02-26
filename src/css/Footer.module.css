@@ -1,0 +1,41 @@
+/*
+ * File       : Header.module.css
+ * Date       : 2024. 02. 24
+ * Author     : SUJI BAE (THETITITLE)
+ */
+@import url('../reset.css');
+/* **************************************** *
+ * DEFAULT
+ * **************************************** */
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link:hover {
+  color: var(--yellow);
+  transition: 0.3s;
+}
+.logo {
+  width: 50px;
+  height: auto;
+}
+/* **************************************** *
+ * MAIL
+ * **************************************** */
+.mailTo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}

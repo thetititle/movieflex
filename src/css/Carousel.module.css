@@ -1,0 +1,51 @@
+/*
+ * File       : Carousel.module.css
+ * Date       : 2024. 02. 24
+ * Author     : SUJI BAE (THETITITLE)
+ */
+.carouselWrap {
+  height: 680px;
+}
+
+.carouselHeight {
+  height: 680px;
+  position: relative;
+}
+.carouselHeight::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 15%,
+    rgba(37, 37, 37, 1) 100%
+  );
+}
+.carouselImg {
+  height: 680px;
+  width: inherit;
+  object-fit: cover;
+}
+
+.carouselCaption {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 700px;
+}
+.carouselCaption h1 {
+  text-align: left;
+  font-size: 52px;
+  border-bottom: 2px solid var(--red);
+}
+.carouselCaption p {
+  text-align: left;
+  word-break: keep-all;
+}

@@ -1,0 +1,106 @@
+/*
+ * File       : Movie.module.css
+ * Date       : 2024. 02. 24
+ * Author     : SUJI BAE (THETITITLE)
+ */
+@import url('../reset.css');
+
+.movie {
+  position: relative;
+  cursor: pointer;
+}
+.movie::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: var(--bgColor);
+  opacity: 0;
+  transition: 0.3s;
+}
+.movie:hover::after {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+.img {
+  position: relative;
+}
+.movieInfoWrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0;
+}
+.movieInfoWrap:hover {
+  opacity: 1;
+}
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+}
+.title {
+  color: var(--fontTitle);
+  font-size: 21px;
+}
+.genres {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  column-gap: 10px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+  line-height: 1;
+  color: var(--fontDark);
+}
+.summaryWrap {
+  font-size: 14px;
+  height: 150px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-bottom: 20px;
+}
+.summaryWrap::-webkit-scrollbar {
+  display: none;
+}
+.summary {
+  width: 100%;
+  word-break: break-all;
+}
+.detailWrap {
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.detail {
+  position: relative;
+  padding: 5px 10px;
+  color: var(--fontTitle);
+  font-size: 14px;
+  line-height: 1.2;
+}
+.detail::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: var(--red);
+  z-index: -1;
+  border-radius: 15px;
+}
